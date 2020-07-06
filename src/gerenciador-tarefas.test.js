@@ -4,6 +4,4 @@ import GerenciadorTarefas from './gerenciador-tarefas';
 
 test('Renderizando projeto sem erros', () => {
   const { getByText } = render(<GerenciadorTarefas />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
 });
